@@ -2,7 +2,7 @@ import React from 'react';
 import logo from '../logo.svg';
 import { Container,Row,Col,Form,Input,Button,Navbar,Nav,NavbarBrand,NavLink,NavItem,UncontrolledDropdown,DropdownToggle,DropdownMenu,DropdownItem} from 'reactstrap';
 
-const AVATAR = 'https://github.com/Ibrahim-dot207?tab=repositories';
+const AVATAR = 'https://avatars.githubusercontent.com/u/72122229?s=400&u=a58581bc0d18e819838e0357a337595354521fa5&v=4';
 const Header = () =>(
     <header>
         <Navbar fixed="top" color="green" light expand="xs" className="border-bottom border-gray bg-white" style={{height: 80}}>

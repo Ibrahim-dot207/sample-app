@@ -6,7 +6,7 @@ class Post extends Component{
     state={post:null}
 
     componentDidMount(){
-        axios.get('https://baconipsum.com/api/?type=meat-and-filler&paras=4&format=text')
+        axios.get('https://baconipsum.com/api/?type=meat-and-filler&paras=5&format=text')
             .then(response => this.setState({post: response.data}));
     }
     render(){
@@ -17,7 +17,7 @@ class Post extends Component{
                     Editor's Pick
                 <Badge pill color="success" className="text-uppercase px-2 py-1 ml-3 mb-1 align-middle" style={{fontSize: '0.75rem'}}>New</Badge>
                 </span>
-                <span className="d-block pb-4 h2 text-dark border-bottom border-gray">Getting Started with React</span>
+                <span className="d-block pb-4 h2 text-dark border-bottom border-gray margin-left-5px">Getting Started with React</span>
                 <article className="pt-5 text-secondary text-justify" style={{fontSize:'0.9rem', whiteSpace:'pre-line'}}>
                     {this.state.post}
                 </article>
