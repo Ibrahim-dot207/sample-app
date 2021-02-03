@@ -17,7 +17,7 @@ const sideCard = () => (
                 <CardSubtitle className="text-secondary mb-3 font-weight-light text-uppercase">
                 Mechanical Engineer and Web Developer, Ghana.
                 </CardSubtitle>
-                <CardText className="text-secondary mb-4" style={{fontSize:'0.75rem'}}>Mechanical Engineer and Full-Stack Web developer with very sold background in JavaScript, HTML,CSS, and a fair knowledge in react and python</CardText>
+                <CardText className="text-secondary mb-4" style={{fontSize:'0.75rem'}}>Mechanical Engineer and Full-Stack Web developer with very solid background in JavaScript, HTML,CSS, and a fair knowledge in react and python</CardText>
                 <Button color="success" className="font-weight-bold">View Profile</Button>
             </CardBody>
         </Card>
