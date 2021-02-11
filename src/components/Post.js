@@ -17,8 +17,8 @@ class Post extends Component{
                     Editor's Pick
                 <Badge pill color="success" className="text-uppercase px-2 py-1 ml-3 mb-1 align-middle" style={{fontSize: '0.75rem'}}>New</Badge>
                 </span>
-                <span className="d-block pb-4 h2 text-dark border-bottom border-gray margin-left-5px">Getting Started with React</span>
-                <article className="pt-5 text-secondary text-justify" style={{fontSize:'0.9rem', whiteSpace:'pre-line'}}>
+                <span className="d-block pb-4 h2 text-dark border-bottom border-gray">Getting Started with React</span>
+                <article className="pt-5 text-secondary text-justify border-right-10px" style={{fontSize:'0.9rem', whiteSpace:'pre-line'}}>
                     {this.state.post}
                 </article>
                 </div>}

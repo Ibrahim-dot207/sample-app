@@ -1,13 +1,13 @@
 import React, {Fragment} from 'react';
 import {Button,UncontrolledAlert,Card,CardImg,CardBody,CardText, CardSubtitle} from 'reactstrap';
 
-const BANNER = 'https://www.canva.com/design/play?template=EAESDiEh37Y&category=tACZCvjI6mE&type=TAB7AVEOUWQ';
+const BANNER = 'https://avatars.githubusercontent.com/u/72122229?s=400&u=a58581bc0d18e819838e0357a337595354521fa5&v=4';
 
 const sideCard = () => (
     <Fragment>
         <UncontrolledAlert color="danger" className="d-none d-lg-block">
             
-            Account Not Activated
+            <span>New Page</span>
             
         </UncontrolledAlert>
         <Card>

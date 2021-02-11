@@ -4,6 +4,7 @@ import {Container,Row,Col} from 'reactstrap';
 import Post from './components/Post';
 import Header from './components/Header';
 import SideCard from './components/SideCard';
+import Comment from './components/Comment';
 
 
 
@@ -18,6 +19,9 @@ const App =() => (
                 </Col>
                 <Col xs={{order:1}} md={{size:7, order: 1}} tag="section" className="py-5 mb-5 py-md-0 mb-md-0 ">
                 <Post/>
+              </Col>
+              <Col xs={{order:2}} md={{size:7, order: 1}} tag="section" className="py-5 mb-5 py-md-0 mb-md-0 ">
+              <Comment/>
               </Col>
             </Row>
           </Container>
